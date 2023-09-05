@@ -4,14 +4,14 @@ This code example generates an interrupt every second with the TIMER driver, and
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-hal-tcpwm-timer)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ1NDQiLCJTcGVjIE51bWJlciI6IjAwMi0zNDU0NCIsIkRvYyBUaXRsZSI6IkhBTDogVENQV00gdGltZXIiLCJyaWQiOiJ6cWxpIiwiRG9jIHZlcnNpb24iOiIxLjIuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ1NDQiLCJTcGVjIE51bWJlciI6IjAwMi0zNDU0NCIsIkRvYyBUaXRsZSI6IkhBTDogVENQV00gdGltZXIiLCJyaWQiOiJ6cWxpIiwiRG9jIHZlcnNpb24iOiIxLjIuMSIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 ## Requirements
 
 - [ModusToolbox&trade; software](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
 - Board support package (BSP) minimum required version for:
    - KIT_XMC72_EVK: v1.0.0
-   - CYW920829M2EVK-02: v1.0.0.Beta4
+   - CYW920829M2EVK-02: v1.0.1
    - CY8CKIT-062-BLE: v4.2.0
    - CY8CPROTO-063-BLE: v4.2.0
    - CYBLE-416045-EVAL: v4.2.0
@@ -27,7 +27,7 @@ This code example generates an interrupt every second with the TIMER driver, and
 ## Supported kits (make variable 'TARGET')
 
 - [XMC7200 evaluation kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`) - Default value of `TARGET`
-- AIROC&trade; CYW20829 Bluetooth&reg; LE evaluation kit (`CYW920829M2EVK-02`)
+- [AIROC&trade; CYW20829 Bluetooth&reg; LE evaluation kit](https://www.infineon.com/CYW920829M2EVK-02) (`CYW920829M2EVK-02`)
 - [PSoC&trade; 6 Bluetooth&reg; LE pioneer kit](https://www.infineon.com/CY8CKIT-062-BLE) (`CY8CKIT-062-BLE`)
 - [PSoC&trade; 6 Bluetooth&reg; LE prototyping kit](https://www.infineon.com/CY8CPROTO-063-BLE) (`CY8CPROTO-063-BLE`)
 - [EZ-BLE Arduino Evaluation Board](https://www.infineon.com/cms/en/product/evaluation-boards/cyble-416045-eval/) (`CYBLE-416045-EVAL`)
@@ -213,6 +213,7 @@ Document title: *CE234544* - *HAL: TCPWM timer*
 | 1.0.0   | New code example      |
 | 1.1.0   | Added support for CYW920829M2EVB-01. Removal of serial terminal display logs |
 | 1.2.0   | Removed CYW920829M2EVB-01 from supported kits <br> Added support for CY8CKIT-062-BLE, CY8CPROTO-063-BLE, CYBLE-416045-EVAL and CYW920829M2EVK-02 |
+| 1.2.1   | Readme Updated |
 
 
 All other trademarks or registered trademarks referenced herein are the property of their respective owners.
